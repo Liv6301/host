@@ -10,9 +10,6 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Star Wars Episode V I/II.</tw-noscript></noscript></tw-story>
 <tw-storydata name="Star Wars Episode V I/II" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="A71C7353-C97B-468E-AFA9-AEF63EA0311D" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">
-      window.addEventListener('load', () => {
-          const video = document.getElementById('introVideo');
-          video.play();
 
           video.requestFullscreen().catch(err => {
               console.warn(`Fehler beim Starten im Vollbildmodus: ${err.message}`);
@@ -20,8 +17,8 @@
       });
 
 
-(after:66s)[(redirect: &quot;Ankunft&quot;)]</tw-passagedata><tw-passagedata pid="5" name="Kammer1" tags="" position="775,500" size="100,100">&lt;div style=&quot;position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);&quot;&gt;
-    &lt;img src=https://drive.google.com/file/d/1QPdQmOKbF1OWB0h5ezkODMLy72RYrWR6/view?usp=sharing; style=&quot;width: 100vw; height: 100vh; object-fit: cover;&quot;&gt;
+(after:6s)[(redirect: &quot;Ankunft&quot;)]</tw-passagedata><tw-passagedata pid="5" name="Kammer1" tags="" position="775,500" size="100,100">&lt;div style=&quot;position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);&quot;&gt;
+    &lt;img src=https://drive.google.com/uc?id=1QPdQmOKbF1OWB0h5ezkODMLy72RYrWR6; style=&quot;width: 100vw; height: 100vh; object-fit: cover;&quot;&gt;
 &lt;/div&gt;
 
 (text-colour:white)[$name, wie wirst du dich verstecken? ]
