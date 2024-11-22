@@ -17,9 +17,12 @@
       });
 
 
-(after:6s)[(redirect: &quot;Ankunft&quot;)]</tw-passagedata><tw-passagedata pid="5" name="Kammer1" tags="" position="775,500" size="100,100">&lt;div style=&quot;position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);&quot;&gt;
-    &lt;img src=https://drive.google.com/uc?id=1QPdQmOKbF1OWB0h5ezkODMLy72RYrWR6; style=&quot;width: 100vw; height: 100vh; object-fit: cover;&quot;&gt;
-&lt;/div&gt;
+(after:6s)[(redirect: &quot;Ankunft&quot;)]<tw-passagedata pid="5" name="Kammer1" tags="" position="775,500" size="100,100">
+    <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <img src="https://drive.google.com/uc?id=1QPdQmOKbF1OWB0h5ezkODMLy72RYrWR6" style="width: 100vw; height: 100vh; object-fit: cover;">
+    </div>
+    (after: 6s)[(redirect: "Ankunft")]
+</tw-passagedata>
 
 (text-colour:white)[$name, wie wirst du dich verstecken? ]
 
